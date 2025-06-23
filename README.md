@@ -1,21 +1,9 @@
-# E-Commerce développé avec NextJs
+# Application E-Commerce pour Lucy
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Ce projet est développé avec [Next.js](https://nextjs.org) et prototypé avec [Bolt.new](https://bolt.new/~/sb1-r9ov56b2)
 
-## Getting Started
-
-First, run the development server:
+Lancer le projet localement:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-- Prototyped with bolt.new: https://bolt.new/~/sb1-r9ov56b2
-
-
