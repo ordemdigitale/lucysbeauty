@@ -1,0 +1,31 @@
+import * as React from "react";
+
+const IconMastercard = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" fill="none" viewBox="0 0 72 48" {...props}>
+    <path
+      fill="#fff"
+      stroke="#DDD"
+      d="M4 .5h64A3.5 3.5 0 0 1 71.5 4v40a3.5 3.5 0 0 1-3.5 3.5H4A3.5 3.5 0 0 1 .5 44V4A3.5 3.5 0 0 1 4 .5Z"
+    ></path>
+    <path
+      fill="#ED0006"
+      fillRule="evenodd"
+      d="M36 34.732a13.8 13.8 0 0 1-9.05 3.368C19.247 38.1 13 31.787 13 24S19.246 9.9 26.95 9.9A13.8 13.8 0 0 1 36 13.268 13.8 13.8 0 0 1 45.05 9.9C52.753 9.9 59 16.213 59 24s-6.246 14.1-13.95 14.1A13.8 13.8 0 0 1 36 34.732"
+      clipRule="evenodd"
+    ></path>
+    <path
+      fill="#F9A000"
+      fillRule="evenodd"
+      d="M36 34.732A14.13 14.13 0 0 0 40.902 24 14.13 14.13 0 0 0 36 13.268 13.8 13.8 0 0 1 45.05 9.9C52.753 9.9 59 16.213 59 24s-6.246 14.1-13.95 14.1A13.8 13.8 0 0 1 36 34.732"
+      clipRule="evenodd"
+    ></path>
+    <path
+      fill="#FF5E00"
+      fillRule="evenodd"
+      d="M36 34.731A14.13 14.13 0 0 0 40.902 24 14.13 14.13 0 0 0 36 13.268 14.13 14.13 0 0 0 31.1 24 14.13 14.13 0 0 0 36 34.73"
+      clipRule="evenodd"
+    ></path>
+  </svg>
+);
+
+export default IconMastercard;

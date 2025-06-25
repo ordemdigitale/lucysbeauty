@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# sqlite
+*.sqlite
+*.sqlite3
+/*.db
+
+# drizzle
+/src/drizzle
+drizzle.config.ts
+
+# scripts
+/scripts
