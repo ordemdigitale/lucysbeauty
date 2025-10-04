@@ -9,7 +9,7 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // In a real app, fetch product data here
   return {
-    title: 'Product Name | Lumière Beauty',
+    title: `${params.id} | Lucy's Beauty`,
     description: 'Product description for SEO',
   };
 }

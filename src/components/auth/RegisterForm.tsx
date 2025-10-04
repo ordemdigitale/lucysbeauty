@@ -15,7 +15,7 @@ export default function RegisterForm() {
     email: '',
     password: '',
   });
-  const router = useRouter();
+  /* const router = useRouter(); */
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

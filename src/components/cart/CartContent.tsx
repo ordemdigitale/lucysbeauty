@@ -48,7 +48,7 @@ export default function CartContent() {
     return (
       <div className="text-center py-12">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Your cart is empty</h2>
-        <p className="text-gray-600 mb-8">Looks like you haven't added anything to your cart yet.</p>
+        <p className="text-gray-600 mb-8">Looks like you haven&apos;t added anything to your cart yet.</p>
         <Button asChild className="bg-pink-600 hover:bg-pink-700">
           <Link href="/products">Continue Shopping</Link>
         </Button>
