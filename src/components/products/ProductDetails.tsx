@@ -40,8 +40,7 @@ export default function ProductDetails({ productId }: ProductDetailsProps) {
 
   const updateQuantity = (change: number) => {
     setQuantity(current => Math.max(1, current + change));
-    productId ?? console.log('No product id provided');
-  };
+    };
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -91,7 +90,7 @@ export default function ProductDetails({ productId }: ProductDetailsProps) {
           transition={{ duration: 0.5 }}
         >
           <h1 className="font-playfair text-3xl font-bold text-gray-900">
-            {product.name}
+            {product.name} - {productId}
           </h1>
           
           <div className="mt-4 flex items-center">
