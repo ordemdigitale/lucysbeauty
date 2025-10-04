@@ -39,7 +39,7 @@ export default function ProductDetails({ productId }: ProductDetailsProps) {
 
   const updateQuantity = (change: number) => {
     setQuantity(current => Math.max(1, current + change));
-    console.log(productId)
+    productId ?? console.log('No product id provided');
   };
 
   return (
