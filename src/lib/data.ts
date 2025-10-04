@@ -1,4 +1,4 @@
-// src/lib/data/products.ts
+// src/lib/data.ts
 
 export interface Review {
   id: number;

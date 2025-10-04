@@ -17,7 +17,7 @@ const testimonials = [
   {
     id: 2,
     name: "Sophia Rodriguez",
-    role: "Makeup Artist",
+    role: "Maquilleuse proffessionnelle",
     comment: "As a professional makeup artist, I'm incredibly picky about the products I use. Lumière's foundations offer amazing coverage while still looking natural on all skin types.",
     rating: 5,
     image: "https://images.pexels.com/photos/1848565/pexels-photo-1848565.jpeg?auto=compress&cs=tinysrgb&w=120"
@@ -25,7 +25,7 @@ const testimonials = [
   {
     id: 3,
     name: "Olivia Chen",
-    role: "Beauty Blogger",
+    role: "Influenceuse beauté",
     comment: "I've been documenting my skincare journey for years and Lumière products have consistently remained in my top recommendations. Their commitment to quality is unmatched.",
     rating: 4,
     image: "https://images.pexels.com/photos/1898555/pexels-photo-1898555.jpeg?auto=compress&cs=tinysrgb&w=120"
@@ -33,7 +33,7 @@ const testimonials = [
   {
     id: 4,
     name: "Jessica Miller",
-    role: "Customer",
+    role: "Cliente",
     comment: "The overnight mask is now an essential part of my evening routine. I wake up with noticeably more radiant skin, and the subtle fragrance makes the experience so luxurious.",
     rating: 5,
     image: "https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg?auto=compress&cs=tinysrgb&w=120"

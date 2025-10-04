@@ -72,7 +72,7 @@ export default function FeaturedProducts() {
     <section className="py-16">
       <div className="text-center mb-12">
         <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Meilleures Ventes
+          Meilleures ventes
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
           Découvrez nos produits les plus appréciés, soigneusement formulés pour mettre en valeur votre beauté naturelle

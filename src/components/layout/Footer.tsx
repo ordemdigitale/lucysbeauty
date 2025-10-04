@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { categories } from '@/lib/data2';
 import { Instagram, Facebook, Twitter, Youtube, /* Mail */ } from 'lucide-react';
 //import { Button } from '@/components/ui/button';
 //import { Input } from '@/components/ui/input';
@@ -32,10 +33,13 @@ export default function Footer() {
           <div>
             <h4 className="font-medium text-gray-900 mb-4">Boutique</h4>
             <ul className="space-y-2">
-              <li><Link href="/category/skincare" className="text-gray-600 hover:text-pink-500 text-sm">Skincare</Link></li>
-              <li><Link href="/category/makeup" className="text-gray-600 hover:text-pink-500 text-sm">Makeup</Link></li>
-              <li><Link href="/category/haircare" className="text-gray-600 hover:text-pink-500 text-sm">Haircare</Link></li>
-              <li><Link href="/category/fragrance" className="text-gray-600 hover:text-pink-500 text-sm">Fragrance</Link></li>
+            {categories.map((category) => (
+              <li key={category.id}>
+                <Link className="text-gray-600 hover:text-pink-500 text-sm" href={`/category/${category.slug}`}>
+                  {category.label}
+                </Link>
+              </li>
+            ))}
               <li><Link href="/new-arrivals" className="text-gray-600 hover:text-pink-500 text-sm">New Arrivals</Link></li>
               <li><Link href="/bestsellers" className="text-gray-600 hover:text-pink-500 text-sm">Meilleures Ventes</Link></li>
             </ul>

@@ -10,10 +10,12 @@ export default function Categories() {
     <section className="py-16">
       <div className="text-center mb-12">
         <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Shop by Category
+          {/* Shop by Category */}
+          Explorez par catégories
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Explore our wide range of beauty categories, each curated with the finest products
+          {/* Explore our wide range of beauty categories, each curated with the finest products */}
+          Découvrez nos catégories qui sont chacune composée des meilleurs produits
         </p>
       </div>
 
