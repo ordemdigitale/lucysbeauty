@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { categories } from '@/lib/data2';
 
@@ -28,7 +29,7 @@ export default function Categories() {
             viewport={{ once: true }}
           >
             <div className="aspect-[16/9] overflow-hidden">
-              <img 
+              <Image 
                 src={category.image} 
                 alt={category.label}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"

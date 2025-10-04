@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Heart, Minus, Plus, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 // Mock product data - In a real app, this would come from an API
 const product = {
@@ -52,10 +53,12 @@ export default function ProductDetails({ productId }: ProductDetailsProps) {
           transition={{ duration: 0.5 }}
           className="aspect-square overflow-hidden rounded-lg bg-gray-100"
         >
-          <img
+          <Image
             src={product.images[selectedImage]}
             alt={product.name}
             className="h-full w-full object-cover object-center"
+            width={600}
+            height={600}
           />
         </motion.div>
         
@@ -68,10 +71,12 @@ export default function ProductDetails({ productId }: ProductDetailsProps) {
                 selectedImage === index ? 'ring-2 ring-pink-500' : ''
               }`}
             >
-              <img
+              <Image
                 src={image}
                 alt={`${product.name} ${index + 1}`}
                 className="h-full w-full object-cover object-center"
+                width={600}
+                height={600}
               />
             </button>
           ))}

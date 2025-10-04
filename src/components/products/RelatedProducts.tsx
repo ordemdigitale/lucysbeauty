@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Heart } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -61,10 +62,12 @@ export default function RelatedProducts() {
             onMouseLeave={() => setHoveredProduct(null)}
           >
             <div className="relative aspect-square overflow-hidden rounded-lg bg-gray-100">
-              <img
+              <Image
                 src={product.image}
                 alt={product.name}
                 className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                width={600}
+                height={600}
               />
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-opacity duration-300" />
               

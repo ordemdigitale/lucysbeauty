@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Minus, Plus, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -66,10 +67,12 @@ export default function CartContent() {
             {cartItems.map((item) => (
               <div key={item.id} className="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-sm">
                 <div className="w-24 h-24 flex-shrink-0">
-                  <img
+                  <Image
                     src={item.image}
                     alt={item.name}
                     className="w-full h-full object-cover rounded-md"
+                    width={96}
+                    height={96}
                   />
                 </div>
                 

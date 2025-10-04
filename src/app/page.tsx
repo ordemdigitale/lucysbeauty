@@ -1,7 +1,7 @@
 import HeroCarousel from "@/components/home/HeroCarousel";
 import FeaturedProducts from "@/components/home/FeaturedProducts";
 import Categories from "@/components/home/Categories";
-import SpecialOffers from "@/components/home/SpecialOffers";
+//import SpecialOffers from "@/components/home/SpecialOffers";
 import Testimonials from "@/components/home/Testimonials";
 import Newsletter from "@/components/home/Newsletter";
 

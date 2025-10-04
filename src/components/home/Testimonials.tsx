@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
+import Image from 'next/image';
 
 // Fake testimonials data
 const testimonials = [
@@ -97,10 +98,12 @@ export default function Testimonials() {
                     </blockquote>
                     
                     <div className="flex items-center">
-                      <img 
+                      <Image 
                         src={testimonial.image} 
                         alt={testimonial.name}
                         className="w-12 h-12 rounded-full object-cover"
+                        width={48}
+                        height={48}
                       />
                       <div className="ml-4">
                         <p className="font-semibold text-gray-900">{testimonial.name}</p>
