@@ -40,29 +40,26 @@ export default function Footer() {
                 </Link>
               </li>
             ))}
-              <li><Link href="/new-arrivals" className="text-gray-600 hover:text-pink-500 text-sm">New Arrivals</Link></li>
+              <li><Link href="/new-arrivals" className="text-gray-600 hover:text-pink-500 text-sm">Nouveautés</Link></li>
               <li><Link href="/bestsellers" className="text-gray-600 hover:text-pink-500 text-sm">Meilleures Ventes</Link></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-medium text-gray-900 mb-4">Company</h4>
+            <h4 className="font-medium text-gray-900 mb-4">La Marque</h4>
             <ul className="space-y-2">
-              <li><Link href="/about" className="text-gray-600 hover:text-pink-500 text-sm">About Us</Link></li>
+              <li><Link href="/about" className="text-gray-600 hover:text-pink-500 text-sm">À propos</Link></li>
               <li><Link href="/contact" className="text-gray-600 hover:text-pink-500 text-sm">Contact</Link></li>
-              <li><Link href="/careers" className="text-gray-600 hover:text-pink-500 text-sm">Careers</Link></li>
-              <li><Link href="/sustainability" className="text-gray-600 hover:text-pink-500 text-sm">Sustainability</Link></li>
-              <li><Link href="/press" className="text-gray-600 hover:text-pink-500 text-sm">Press</Link></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-medium text-gray-900 mb-4">Customer Service</h4>
+            <h4 className="font-medium text-gray-900 mb-4">Service Client</h4>
             <ul className="space-y-2">
-              <li><Link href="/help" className="text-gray-600 hover:text-pink-500 text-sm">Help Center</Link></li>
-              <li><Link href="/shipping" className="text-gray-600 hover:text-pink-500 text-sm">Shipping & Returns</Link></li>
-              <li><Link href="/terms" className="text-gray-600 hover:text-pink-500 text-sm">Terms & Conditions</Link></li>
-              <li><Link href="/privacy" className="text-gray-600 hover:text-pink-500 text-sm">Privacy Policy</Link></li>
+              <li><Link href="/help" className="text-gray-600 hover:text-pink-500 text-sm">Centre d'aide</Link></li>
+              <li><Link href="/shipping" className="text-gray-600 hover:text-pink-500 text-sm">Expédition & Retours</Link></li>
+              <li><Link href="/terms" className="text-gray-600 hover:text-pink-500 text-sm">Conditions Générales</Link></li>
+              <li><Link href="/privacy" className="text-gray-600 hover:text-pink-500 text-sm">Politique de Confidentialité</Link></li>
               <li><Link href="/faq" className="text-gray-600 hover:text-pink-500 text-sm">FAQ</Link></li>
             </ul>
           </div>

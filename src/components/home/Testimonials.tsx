@@ -9,16 +9,16 @@ const testimonials = [
   {
     id: 1,
     name: "Emma Thompson",
-    role: "Skincare Enthusiast",
-    comment: "The hydrating serum completely transformed my skin. After struggling with dryness for years, I finally found a product that delivers lasting moisture without feeling heavy.",
+    role: "Passionnée de soins de la peau",
+    comment: "Le sérum hydratant a complètement transformé ma peau. Après des années de lutte contre la sécheresse, j'ai enfin trouvé un produit qui offre une hydratation durable sans alourdir ma peau.",
     rating: 5,
     image: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=120"
   },
   {
     id: 2,
     name: "Sophia Rodriguez",
-    role: "Maquilleuse proffessionnelle",
-    comment: "As a professional makeup artist, I'm incredibly picky about the products I use. Lumière's foundations offer amazing coverage while still looking natural on all skin types.",
+    role: "Maquilleuse professionnelle",
+    comment: "En tant que maquilleuse professionnelle, je suis incroyablement exigeante sur les produits que j'utilise. Les fonds de teint de Lumière offrent une couverture incroyable tout en ayant un aspect naturel sur tous les types de peau.",
     rating: 5,
     image: "https://images.pexels.com/photos/1848565/pexels-photo-1848565.jpeg?auto=compress&cs=tinysrgb&w=120"
   },
@@ -26,7 +26,7 @@ const testimonials = [
     id: 3,
     name: "Olivia Chen",
     role: "Influenceuse beauté",
-    comment: "I've been documenting my skincare journey for years and Lumière products have consistently remained in my top recommendations. Their commitment to quality is unmatched.",
+    comment: "J'ai documenté mon parcours de soins de la peau pendant des années et les produits Lumière sont restés en tête de mes recommandations. Leur engagement envers la qualité est inégalé.",
     rating: 4,
     image: "https://images.pexels.com/photos/1898555/pexels-photo-1898555.jpeg?auto=compress&cs=tinysrgb&w=120"
   },
@@ -34,7 +34,7 @@ const testimonials = [
     id: 4,
     name: "Jessica Miller",
     role: "Cliente",
-    comment: "The overnight mask is now an essential part of my evening routine. I wake up with noticeably more radiant skin, and the subtle fragrance makes the experience so luxurious.",
+    comment: "Le masque de nuit fait maintenant partie intégrante de ma routine du soir. Je me réveille avec une peau visiblement plus éclatante, et le parfum subtil rend l'expérience si luxueuse.",
     rating: 5,
     image: "https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg?auto=compress&cs=tinysrgb&w=120"
   }

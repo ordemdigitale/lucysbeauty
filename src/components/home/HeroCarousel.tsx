@@ -7,28 +7,28 @@ import { Button } from '@/components/ui/button';
 const slides = [
   {
     id: 1,
-    title: "Summer Glow Collection",
-    subtitle: "Illuminate your natural beauty",
-    description: "Discover our new line of radiance-enhancing products for a sun-kissed glow all year round.",
-    buttonText: "Shop Now",
+    title: "Collection éclatante",
+    subtitle: "Illuminez votre beauté naturelle",
+    description: "Découvrez notre nouvelle gamme de produits hydratants pour un teint radieux toute l'année.",
+    buttonText: "Acheter",
     buttonLink: "/collection/summer-glow",
     image: "https://images.pexels.com/photos/32145471/pexels-photo-32145471/free-photo-of-femme-elegante-avec-un-maquillage-audacieux-et-un-foulard.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&drp=1"
   },
   {
     id: 2,
-    title: "Clean Beauty Essentials",
-    subtitle: "Pure. Natural. You.",
-    description: "Clean, vegan formulas that deliver results while being kind to your skin and the planet.",
-    buttonText: "Explore",
+    title: "Les indispensables pour une beauté nette.",
+    subtitle: "Pure. Naturel. Vous.",
+    description: "Des produits de beauté propres, formulés avec des ingrédients naturels pour une peau saine et éclatante.",
+    buttonText: "Explorer",
     buttonLink: "/category/clean-beauty",
     image: "https://images.pexels.com/photos/3762876/pexels-photo-3762876.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1"
   },
   {
     id: 3,
-    title: "Luxury Skincare Ritual",
-    subtitle: "Self-care redefined",
-    description: "Indulge in our premium skincare ritual designed to transform your daily routine into a luxurious experience.",
-    buttonText: "Discover",
+    title: "Rituel de soins pour la peau",
+    subtitle: "Redéfinir les soins personnels",
+    description: "Profitez de notre gamme de produits premium, conçu pour transformer votre routine quotidienne en une expérience unique.",
+    buttonText: "Découvrir",
     buttonLink: "/category/luxury-skincare",
     image: "https://images.pexels.com/photos/3192175/pexels-photo-3192175.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1"
   }
