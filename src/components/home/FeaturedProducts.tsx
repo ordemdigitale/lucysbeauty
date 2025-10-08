@@ -13,7 +13,7 @@ const products = [
     name: "Hydrating Facial Serum",
     category: "Skincare",
     price: 48,
-    image: "https://images.pexels.com/photos/5069603/pexels-photo-5069603.jpeg?auto=compress&cs=tinysrgb&w=600"
+    image: "https://uwjmkfyhjkzicglfdsvz.supabase.co/storage/v1/object/public/various-pics/skincare.webp"
   },
   {
     id: 2,
