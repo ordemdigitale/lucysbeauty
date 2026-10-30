@@ -1,4 +1,3 @@
-//import { getCategories } from "@/drizzle/queries";
 import { getCategoryList } from "@/db/queries/categories/category-select";
 import NavbarItems from "./NavItems";
 

@@ -30,33 +30,9 @@ export const categories = [
     description: "Science-backed formulations for radiant skin",
     image: "https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
-] as const;
+];
 export type Category = typeof categories[number]["slug"];
 export type TCategory = typeof categories[number];
-
-/* const categories = [
-  { 
-    name: 'Visage',
-    href: '/category/visage',
-    collections: ['New Arrivals', 'Best Sellers', 'Limited Edition', 'All Skincare']
-  },
-  { 
-    name: 'Maquillage',
-    href: '/category/maquillage',
-    collections: ['New Arrivals', 'Best Sellers', 'Limited Edition', 'All Makeup']
-  },
-  { 
-    name: 'Corps',
-    href: '/category/corps',
-    collections: ['New Arrivals', 'Best Sellers', 'Limited Edition', 'All Haircare']
-  },
-  { 
-    name: 'Cheveux',
-    href: '/category/cheveux',
-    collections: ['New Arrivals', 'Best Sellers', 'Limited Edition', 'All Fragrance']
-  }
-]; */
-
 
 export interface Product {
   id: number;
