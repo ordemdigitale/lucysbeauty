@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { Search, ShoppingBag, User, Menu, X } from 'lucide-react';
-import { TCategory } from '@/lib/data2';
+import { TCategory } from '@/types';
 
 export default function NavbarItems({ categories }: { categories: TCategory[] }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -67,7 +67,7 @@ export default function NavbarItems({ categories }: { categories: TCategory[] })
                       isScrolled ? 'text-gray-600' : 'text-gray-700'
                     }`}
                   >
-                    <Link href={`/category/${category.slug}`}>
+                    <Link href={`/category/${category.slug}`} className="capitalize">
                       {category.label}
                     </Link>
                   </button>

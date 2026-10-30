@@ -1,8 +1,8 @@
-import { getCategoryList } from "@/db/queries/categories/category-select";
+import { getCategories } from "@/db/queries/categories/categories-select";
 import NavbarItems from "./NavItems";
 
-export default function Navbar() {
-  const categories = getCategoryList();
+export default async function Navbar() {
+  const categories = await getCategories();
 
   return (
     <NavbarItems categories={categories} />
