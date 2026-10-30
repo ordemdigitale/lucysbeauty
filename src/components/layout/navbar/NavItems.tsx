@@ -3,9 +3,16 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { Search, ShoppingBag, User, Menu, X } from 'lucide-react';
-import { categories } from '@/lib/data2';
 
-export default function Navbar() {
+type TCategory = {
+  id: number;
+  slug: string;
+  label: string;
+  description: string | null;
+  imageUrl: string | null;
+};
+
+export default function NavbarItems({ categories }: { categories: TCategory[] }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
