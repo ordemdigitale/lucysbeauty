@@ -3,14 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { Search, ShoppingBag, User, Menu, X } from 'lucide-react';
-
-type TCategory = {
-  id: number;
-  slug: string;
-  label: string;
-  description: string | null;
-  imageUrl: string | null;
-};
+import { TCategory } from '@/lib/data2';
 
 export default function NavbarItems({ categories }: { categories: TCategory[] }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -67,7 +60,7 @@ export default function NavbarItems({ categories }: { categories: TCategory[] })
             {/* Desktop Navigation */}
             <div className="hidden md:flex md:items-center md:space-x-8" ref={dropdownRef}>
               {categories.map((category) => (
-                <div key={category.id} className="relative">
+                <div key={category?.id} className="relative">
                   <button
                     onMouseOver={() => toggleDropdown(category.label)}
                     className={`text-sm font-medium hover:text-pink-500 transition-colors ${

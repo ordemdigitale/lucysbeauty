@@ -32,6 +32,7 @@ export const categories = [
   },
 ] as const;
 export type Category = typeof categories[number]["slug"];
+export type TCategory = typeof categories[number];
 
 /* const categories = [
   { 

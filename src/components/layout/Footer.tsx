@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-import Link from 'next/link';
-import { categories } from '@/lib/data2';
-import { Instagram, Facebook, Twitter, Youtube, /* Mail */ } from 'lucide-react';
-//import { Button } from '@/components/ui/button';
-//import { Input } from '@/components/ui/input';
-=======
 import React from 'react'
 import Link from 'next/link'
 import Icon from '@/components/ui/icons'
 import { Instagram, Facebook, Twitter, Youtube } from 'lucide-react'; // replace with https://simpleicons.org/
->>>>>>> e531889189018d6610ef48a52fc00235834c9c01
 
 const Footer = () => {
   return (
@@ -67,42 +59,6 @@ const Footer = () => {
               </a>
             </div>
           </div>
-<<<<<<< HEAD
-          
-          <div>
-            <h4 className="font-medium text-gray-900 mb-4">Boutique</h4>
-            <ul className="space-y-2">
-            {categories.map((category) => (
-              <li key={category.id}>
-                <Link className="text-gray-600 hover:text-pink-500 text-sm" href={`/category/${category.slug}`}>
-                  {category.label}
-                </Link>
-              </li>
-            ))}
-              <li><Link href="/new-arrivals" className="text-gray-600 hover:text-pink-500 text-sm">Nouveautés</Link></li>
-              <li><Link href="/bestsellers" className="text-gray-600 hover:text-pink-500 text-sm">Meilleures Ventes</Link></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="font-medium text-gray-900 mb-4">La Marque</h4>
-            <ul className="space-y-2">
-              <li><Link href="/about" className="text-gray-600 hover:text-pink-500 text-sm">À propos</Link></li>
-              <li><Link href="/contact" className="text-gray-600 hover:text-pink-500 text-sm">Contact</Link></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="font-medium text-gray-900 mb-4">Service Client</h4>
-            <ul className="space-y-2">
-              <li><Link href="/help" className="text-gray-600 hover:text-pink-500 text-sm">Centre d&apos;aide</Link></li>
-              <li><Link href="/shipping" className="text-gray-600 hover:text-pink-500 text-sm">Expédition & Retours</Link></li>
-              <li><Link href="/terms" className="text-gray-600 hover:text-pink-500 text-sm">Conditions Générales</Link></li>
-              <li><Link href="/privacy" className="text-gray-600 hover:text-pink-500 text-sm">Politique de Confidentialité</Link></li>
-              <li><Link href="/faq" className="text-gray-600 hover:text-pink-500 text-sm">FAQ</Link></li>
-            </ul>
-          </div>
-=======
         </div>
 
         {/* Mode de paiement */}
@@ -111,7 +67,6 @@ const Footer = () => {
           <Icon name="paypal" />
           <Icon name="visa" />
           <Icon name="mastercard" />
->>>>>>> e531889189018d6610ef48a52fc00235834c9c01
         </div>
         
         {/* Copyright */}
